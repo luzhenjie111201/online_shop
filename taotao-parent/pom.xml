@@ -304,7 +304,7 @@
 			</plugins>
 		</pluginManagement>
 		<resources>
-			<!-- 使用Maven部署的时候，xml和properties配置文件一起部署到Tomcat -->
+			<!-- 使用Maven部署的时候，xml和properties配置文件ye一起部署到Tomcat -->
 			<resource>
 				<directory>src/main/java</directory>
 				<includes>
