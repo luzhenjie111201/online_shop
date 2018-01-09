@@ -258,7 +258,6 @@
 				<artifactId>jedis</artifactId>
 				<version>${jedis.version}</version>
 			</dependency>
-
 			<!-- solr客户端 -->
 			<dependency>
 				<groupId>org.apache.solr</groupId>
@@ -305,7 +304,7 @@
 			</plugins>
 		</pluginManagement>
 		<resources>
-			<!-- 使用Maven部署的时候，xml和properties配置文件也一起部署到Tomcat -->
+			<!-- 使用Maven部署的时候，xml和properties配置文件一起部署到Tomcat -->
 			<resource>
 				<directory>src/main/java</directory>
 				<includes>
@@ -324,5 +323,4 @@
 			</resource>
 		</resources>
 	</build>
-
 </project>
